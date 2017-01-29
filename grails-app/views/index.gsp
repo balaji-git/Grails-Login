@@ -13,6 +13,8 @@
 			<div class="text-field"><label>First Name: </label><g:textField name="firstName" value="${firstName}" /></div>
 			<div class="text-field"><label>Last Name: </label><g:textField name="lastName" value="${lastName}" /></div>	
 			<div class="submit"><g:actionSubmit value="Submit" action="login"/></div>
+			<div class="submit"><g:actionSubmit value="show" action="display"/></div>
+			
 		</g:form>
 	</body>
 </html>
